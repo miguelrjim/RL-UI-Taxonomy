@@ -1,0 +1,27 @@
+{
+  "name": "rl-taxonomy",
+  "version": "0.0.1",
+  "description": "Taxonomy for RL UI",
+  "main": "release/index.js",
+  "files": [
+    "release/build.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "^1.4.0",
+    "rl-util": "0.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Jimenez",
+  "license": "Apache 2.0",
+  "publishConfig": {
+    "registry": "http://172.21.168.157:4873"
+  }
+}
